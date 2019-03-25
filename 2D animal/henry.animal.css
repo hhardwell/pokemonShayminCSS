@@ -1,0 +1,397 @@
+
+body{
+	background-color: lightgreen;
+	width: auto;
+	min-height: 800px;
+}
+
+header{
+	position: absolute;
+	left: 30%;
+	top: 5%;
+}
+
+.shayminCanvas{
+	margin: 100px 0 0 25%;
+	position: relative;
+	height: 800px;
+	width: 870px;
+}
+
+.petal,
+.leaf,
+.flowerCenter{
+	position: absolute;
+}
+
+.petal,
+.leaf{
+	border-radius: 100% 5%;
+}
+
+.petal {
+	background: #f4b3c2;
+	width: 100px;
+	height: 80px;
+	z-index: 3;
+}
+
+.flowerCenter{
+	background: black;
+	width:5px;
+	height: 15px;
+	border-radius: 50%;
+	z-index: 4;
+}
+
+.leaf{
+	background: #489753;
+	width: 150px;
+	height: 180px;
+	z-index: 2;
+}
+
+.body{
+	position: absolute;
+	width: 370px;
+	height: 200px;
+	border-radius: 200px / 150px;
+	background: white;
+	transform: rotate(-10deg);
+	top: 32%;
+	right: 40%;
+}
+
+.backPart{
+	background: limegreen;
+	position: absolute;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.leg{
+	z-index: 1;
+	position: absolute;
+	background: white;
+	border-radius: 50%;
+}
+
+
+.sectionOne{
+	width: 200px;
+	height: 100px;
+	transform: rotate(-20deg);
+	top: 40%;
+	left: 16%;
+}
+
+.sectionTwo{
+	width: 200px;
+	height:50px;
+	transform: rotate(-30deg);
+	top: 37%;
+	left: 12%;
+}
+
+.sectionThree{
+	width: 200px;
+	height:50px;
+	transform: rotate(-15deg);
+	top: 34%;
+	left: 12%;
+}
+
+.sectionFour{
+	width: 200px;
+	height:50px;
+	/* transform: rotate(-5deg); */
+	top: 30%;
+	left: 15%;
+}
+
+.sectionFive{
+	width: 200px;
+	height:50px;
+	transform: rotate(15deg);
+	top: 27%;
+	left: 19%;
+}
+
+.sectionSix{
+	width: 150px;
+	height:30px;
+	transform: rotate(55deg);
+	top: 30%;
+	left: 26%;
+}
+
+.sectionSeven{
+	width: 150px;
+	height:30px;
+	transform: rotate(-90deg);
+	top: 30%;
+	left: 25%;
+}
+
+.sectionEight{
+	width: 170px;
+	height:40px;
+	transform: rotate(-80deg);
+	top: 27%;
+	left: 27%;
+}
+
+.sectionNine{
+	width: 200px;
+	height:70px;
+	transform: rotate(-60deg);
+	top: 26%;
+	left: 30%;
+}
+
+.sectionTen{
+	width: 230px;
+	height:60px;
+	transform: rotate(-40deg);
+	top: 28%;
+	left: 32%;
+}
+
+.sectionEleven{
+	width: 100px;
+	height:30px;
+	transform: rotate(-5deg);
+	top: 26%;
+	left: 48%;
+}
+.sectionTwelth{
+	width: 150px;
+	height:70px;
+	transform: rotate(3deg);
+	top: 29%;
+	left: 44%;
+}
+
+
+.petalOne{
+	top: 31%;
+	left: 36%;
+	transform: rotate(130deg);
+}
+
+.flowerCenterOne{
+	top: 35.5%;
+	left: 41%;
+	transform: rotate(8deg);
+}
+
+.petalTwo{
+	top: 34%;
+	left: 40%;
+	transform: rotate(10deg);
+}
+
+.flowerCenterTwo{
+	top: 38%;
+	left: 45%;
+	transform: rotate(60deg);
+}
+
+.petalThree{
+	top: 40%;
+	left: 39%;
+	transform: rotate(90deg);
+}
+
+.flowerCenterThree{
+	top: 44%;
+	left: 44%;
+	transform: rotate(140deg);
+}
+
+.petalFour{
+	top: 40%;
+	left: 35%;
+	transform: rotate(140deg);
+}
+
+.flowerCenterFour{
+	top: 45%;
+	left: 39.5%;
+	transform: rotate(190deg);
+}
+
+.petalFive{
+	top: 38%;
+	left: 31%;
+	transform: rotate(190deg);
+}
+
+.flowerCenterFive{
+	top: 42%;
+	left: 36%;
+	transform: rotate(245deg);
+}
+
+.petalSix{
+	top: 32%;
+	left: 31%;
+	transform: rotate(80deg);
+}
+
+.flowerCenterSix{
+	top: 36.5%;
+	left: 36.5%;
+	transform: rotate(-40deg);
+}
+
+.leafOne{
+	transform: rotate(25deg);
+	top: 32%;
+	left: 22%;
+	width: 180px;
+}
+
+.leafTwo{
+	top: 45%;
+	left: 31%;
+	width: 110px;
+	height: 100px;
+	transform: rotate(-20deg);
+}
+
+.legOne{
+	width: 70px;
+	height: 35px;
+	transform: rotate(34deg);
+	top: 56%;
+	left: 23%;
+}
+
+.legTwo{
+	width: 70px;
+	height: 35px;
+	transform: rotate(25deg);
+	top: 55.5%;
+	left: 28%;
+}
+
+.legThree{
+	width: 90px;
+	height: 40px;
+	transform: rotate(45deg);
+	top: 55%;
+	left: 39%;
+}
+
+.legThreeFoot{
+	width: 80px;
+	height: 40px;
+	transform: rotate(90deg);
+	top: 54%;
+	left: 40.9%;
+	border-radius: 50px;
+}
+
+.legFour{
+	width: 90px;
+	height: 40px;
+	transform: rotate(80deg);
+	top: 53%;
+	left: 44%;
+}
+
+.legFourFoot{
+	width: 20px;
+	height: 25px;
+	transform: rotate(-10deg);
+	top: 58%;
+	left: 49%;
+	border-radius: 50px;
+}
+
+.mouth{
+	background: linear-gradient(27deg, rgb(235, 127, 163, 100) 40%, rgba(204,72,116,100) 40%);
+	position: absolute;
+    height:35px;
+    width: 60px;
+    border-radius: 0px 0 90px 90px;
+	transform: skew(-35deg);
+	top: 48%;
+	left: 51.5%;
+}
+
+.eye{
+	position: absolute;
+	background: limegreen;
+	transform: rotate(-5deg);
+	width: 15px;
+	height: 40px;
+	top: 39.5%;
+	left: 52%;
+	border-radius: 50%;
+}
+
+.pupil{
+	position: absolute;
+	background: black;
+	width: 7px;
+	height: 19px;
+	top: 25%;
+	left: 24%;
+	border-radius: 50%;
+}
+
+.nose{
+	z-index: -1;
+	position: absolute;
+	width:100px;
+	height:60px;
+	background:white;
+	border-radius: 10px;
+	border-bottom-right-radius: 80%;
+	/* border-bottom-left-radius: 10%; */
+	top: 42%;
+	left: 52%;
+}
+
+.nosePart2 {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	box-shadow: 20px 25px 0 0 white;
+	transform: rotate(80deg);
+	top: 37%;
+	left: 59.7%;
+}
+
+.nosePart3{
+	position: absolute;
+	width: 12px;
+	height: 17px;
+	background: black;
+	border-radius: 50%;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	top: 42%;
+	left: 62.6%;
+
+}
+
+.chin{
+	position: absolute;
+	width: 155px;
+	height: 50px;
+	background: white;
+	left:47%;
+	top: 46%;
+	border-radius: 50%;
+	transform: rotate(-32deg);
+}
+
+
+
+
+
+/* aefwevds */
